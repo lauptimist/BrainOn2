@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fccc92e3fe4f70498e5207fe30643a2, type: 3}
+  m_Name: "Pr\xE9servatif"
+  m_EditorClassIdentifier: 
+  nomObjet: "Pr\xE9servatif"
+  nomAction1: "\"Donner\" \xE0 l'ennemi"
+  typeAction1: 1
+  feedbackAction1: 
+  soinAction1: 0
+  degatsAction1: 2
+  nomAction2: Lancer plus loin
+  typeAction2: 0
+  feedbackAction2: 
+  soinAction2: -2
+  degatsAction2: 0

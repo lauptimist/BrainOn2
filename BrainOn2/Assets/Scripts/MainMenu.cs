@@ -5,7 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    
+
+    private void Start()
+    {
+        GlobalVar.compteChaotic = 0;
+        GlobalVar.comptePacific = 0;
+    }
+
+
     public void PlayGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
